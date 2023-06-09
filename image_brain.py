@@ -3,7 +3,7 @@ import os
 
 execution_path = os.getcwd()
 
-prediction = ImageClassification()
+prediction = ImageClassif()
 prediction.setModelTypeAsDenseNet121()
 prediction.setModelPath(os.path.join(execution_path, "densenet121-a639ec97.pth"))
 prediction.loadModel()
